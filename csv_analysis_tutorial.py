@@ -1,4 +1,4 @@
-# CSV Data Analysis Tutorial for Beginners
+# CSV Data Analysis
 # ========================================
 
 import pandas as pd
@@ -282,8 +282,8 @@ if __name__ == "__main__":
     # Run the complete analysis
     original_df, processed_df = run_complete_analysis()
     
-    # Additional examples for learning
-    print("\n🎓 ADDITIONAL LEARNING EXAMPLES")
+    # Additional examples 
+    print("\n🎓 ADDITIONAL  EXAMPLES")
     print("=" * 50)
     
     # Example 1: Working with dates
@@ -299,12 +299,3 @@ if __name__ == "__main__":
     correlation_matrix = numerical_data.corr().round(2)
     print(correlation_matrix['total_spent'].sort_values(ascending=False))
     
-    print("\n🎉 Tutorial completed! You've learned:")
-    print("✅ How to load CSV files")
-    print("✅ Data exploration and quality assessment")
-    print("✅ Basic statistics and summaries")
-    print("✅ Data filtering and selection")
-    print("✅ Grouping and aggregation")
-    print("✅ Data transformation")
-    print("✅ Sorting and ranking")
-    print("✅ Saving processed data")
